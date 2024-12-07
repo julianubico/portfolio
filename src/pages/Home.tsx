@@ -4,12 +4,13 @@ import { Name, Information } from "../components/Personal.tsx";
 import Socials from "../components/Socials.tsx";
 import Timeline from "../components/Timeline.tsx";
 import Scroller from "../components/Scroller.tsx";
+import Projects from "../components/Projects.tsx";
 
 function Home() {
   const [selected, setSelected] = useState("Education");
 
   return (
-    <div className="no-scrollbar mx-auto flex h-full max-w-3xl flex-col space-y-5 overflow-y-auto bg-white bg-opacity-5 pt-14 text-white">
+    <div className="mx-auto flex max-w-3xl flex-col space-y-5 bg-white bg-opacity-5 pt-14 text-white">
       <Name />
       <Information />
       <Socials />
@@ -18,6 +19,8 @@ function Home() {
       <hr className="mx-auto w-11/12 border-white opacity-15" />
       <Scroller />
       <hr className="mx-auto w-11/12 border-white opacity-15" />
+      <Projects />
+      <div></div>
     </div>
   );
 }

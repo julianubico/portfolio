@@ -3,7 +3,7 @@ import "./index.css";
 
 function App() {
   return (
-    <div className="h-screen w-screen select-none bg-black">
+    <div className="h-full w-full select-none overflow-y-auto bg-black">
       <Home />
     </div>
   );

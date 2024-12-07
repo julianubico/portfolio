@@ -14,12 +14,12 @@ function Timeline({ selected, setSelected }) {
   return (
     <div className="mx-auto flex w-4/5 flex-col">
       <Selector selected={selected} setSelected={setSelected} />
-      <div className="mt-2 flex flex-col space-y-5 rounded-2xl border">
+      <div className="mt-2 flex flex-col space-y-5 rounded-2xl border shadow shadow-white">
         <div className="ml-10 border-l border-white border-opacity-20">
           <AnimatePresence mode="wait">
             {selected === "Work" && (
               <motion.ul key="work" {...animationConfig} className="space-y-5">
-                <li className="relative right-6 pt-14">
+                <li className="relative right-6 pt-12">
                   <Card
                     iconImage="/assets/tech_for_good_inc_logo.jpg"
                     name="Tech For Good Inc."
@@ -45,7 +45,7 @@ function Timeline({ selected, setSelected }) {
                 {...animationConfig}
                 className="space-y-5"
               >
-                <li className="relative right-6 pt-14">
+                <li className="relative right-6 pt-12">
                   <Card
                     iconImage="/assets/ufl.png"
                     name="University of Florida"

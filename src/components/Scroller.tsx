@@ -203,8 +203,8 @@ function Scroller() {
 
   return (
     <div className="flex flex-col gap-y-5">
-      <span className="mx-5 font-mono text-xl italic opacity-50">
-        my tech stack consists of...
+      <span className="mx-5 font-mono text-xl italic opacity-70">
+        my tech stack consists of
       </span>
       <div className="inline-flex w-full flex-nowrap overflow-hidden [mask-image:_linear-gradient(to_right,transparent_0,_black_128px,_black_calc(100%-128px),transparent_100%)]">
         <ul className="animate-infinite-scroll flex items-center justify-center md:justify-start [&_img]:max-w-none [&_li]:mx-4">
