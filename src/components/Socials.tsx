@@ -38,7 +38,7 @@ const linkedin = (
 
 function Socials() {
   return (
-    <div className="ml-4 flex flex-row content-around items-center space-x-2">
+    <div className="flex flex-row content-around items-center space-x-2">
       <a
         className="group mt-1 flex h-8 items-center space-x-2 rounded-md border border-white px-3 transition duration-500 hover:bg-slate-300"
         href="http://localhost:3000/"

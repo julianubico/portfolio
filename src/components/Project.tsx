@@ -10,25 +10,25 @@ interface ProjectProps {
 class Logo extends React.Component<ProjectProps> {
   render() {
     return (
-      <div className="flex flex-col rounded-2xl border shadow shadow-white">
-        <div className="mx-4">
+      <div className="flex flex-col gap-y-4 rounded-2xl border p-4 shadow shadow-white">
+        <div>
           <img
-            className="h-64 w-full rounded-t-2xl object-contain"
+            className="max-h-56 w-full rounded-md object-scale-down"
             src={this.props.image}
             alt="project"
           />
         </div>
-        <div className="p-4">
+        <div>
           <span className="text-lg font-bold">{this.props.name}</span>
         </div>
-        <div className="p-4">
+        <div>
           <span className="text-sm opacity-60">{this.props.description}</span>
         </div>
-        <div className="flex flex-wrap gap-2 p-4">
+        <div className="mt-auto flex flex-wrap gap-2">
           {this.props.technologies.map((tech) => (
             <span
               key={tech}
-              className="rounded-md bg-gray-200 px-2 py-1 text-sm text-gray-800"
+              className="text-xxs poppins-regular content-center rounded-sm bg-white px-2 text-black"
             >
               {tech}
             </span>

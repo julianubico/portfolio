@@ -3,6 +3,9 @@ module.exports = {
   content: ["./src/**/*.{js,jsx,ts,tsx}"],
   theme: {
     extend: {
+      fontSize: {
+        xxs: [".8rem", "1rem"],
+      },
       animation: {
         "infinite-scroll": "infinite-scroll 20s linear infinite",
       },
