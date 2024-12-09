@@ -11,7 +11,7 @@ function Home() {
   const [selected, setSelected] = useState("Education");
 
   return (
-    <div className="mx-auto flex max-w-3xl flex-col gap-y-5 bg-white bg-opacity-5 pt-14 text-white">
+    <div className="mx-auto flex max-w-5xl flex-col gap-y-5 pt-14 text-white backdrop-blur-[2px] backdrop-filter">
       <div className="mx-10 flex flex-col gap-y-3">
         <Name />
         <Information />
