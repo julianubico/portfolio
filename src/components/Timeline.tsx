@@ -23,8 +23,8 @@ function Timeline({ selected, setSelected }) {
                   <Card
                     iconImage="/assets/tech_for_good_inc_logo.jpg"
                     name="Tech For Good Inc."
-                    title="Software Engineer"
-                    dates="June 2024 - Present"
+                    title="Software Engineer Intern"
+                    dates="June 2024 - August 2024"
                     link="https://www.techforgoodinc.org/"
                   />
                 </li>
@@ -33,7 +33,7 @@ function Timeline({ selected, setSelected }) {
                     iconImage="/assets/tesla.svg"
                     name="Tesla Motors"
                     title="Electric Vehicle Service Intern"
-                    dates="June 2023 - Aug 2023"
+                    dates="June 2023 - August 2023"
                     link="https://www.tesla.com/"
                   />
                 </li>
@@ -50,7 +50,7 @@ function Timeline({ selected, setSelected }) {
                     iconImage="/assets/ufl.png"
                     name="University of Florida"
                     title="Bachelor of Science in Computer Science"
-                    dates="Aug 2021 - May 2025"
+                    dates="August 2021 - May 2025"
                     link="https://ufl.edu/"
                   />
                 </li>
@@ -59,7 +59,7 @@ function Timeline({ selected, setSelected }) {
                     iconImage="/assets/terra.png"
                     name="TERRA Environmental Institute"
                     title="High School Diploma"
-                    dates="Aug 2017 - May 2021"
+                    dates="August 2017 - May 2021"
                     link="https://terrawolves.com/"
                   />
                 </li>
