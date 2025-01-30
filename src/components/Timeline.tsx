@@ -21,6 +21,15 @@ function Timeline({ selected, setSelected }) {
               <motion.ul key="work" {...animationConfig} className="space-y-5">
                 <li className="relative right-6 pt-12">
                   <Card
+                    iconImage="/assets/ufl.png"
+                    name="University of Florida"
+                    title="Research Assistant"
+                    dates="January 2025 - Present"
+                    link="https://ufl.edu/"
+                  />
+                </li>
+                <li className="relative right-6 pt-12">
+                  <Card
                     iconImage="/assets/tech_for_good_inc_logo.jpg"
                     name="Tech For Good Inc."
                     title="Software Engineer Intern"
