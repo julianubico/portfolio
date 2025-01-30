@@ -8,7 +8,7 @@ import Projects from "../components/Projects.tsx";
 import Footer from "../components/Footer.tsx";
 
 function Home() {
-  const [selected, setSelected] = useState("Education");
+  const [selected, setSelected] = useState("Work");
 
   return (
     <div className="mx-auto flex max-w-5xl flex-col gap-y-5 pt-14 text-white backdrop-blur-[2px] backdrop-filter">

@@ -28,7 +28,7 @@ function Timeline({ selected, setSelected }) {
                     link="https://ufl.edu/"
                   />
                 </li>
-                <li className="relative right-6 pt-12">
+                <li className="relative right-6">
                   <Card
                     iconImage="/assets/tech_for_good_inc_logo.jpg"
                     name="Tech For Good Inc."
