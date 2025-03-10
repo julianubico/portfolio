@@ -75,7 +75,7 @@ function Socials() {
         <span className="group-hover:text-black">Resume</span>
         {resume}
       </a>
-      <a href="https://github.com/d4julian" target="_blank" rel="noreferrer">
+      <a href="https://github.com/julianubico" target="_blank" rel="noreferrer">
         {github}
       </a>
       <a
